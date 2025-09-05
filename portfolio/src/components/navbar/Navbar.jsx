@@ -8,10 +8,10 @@ function Navbar (){
 
 <nav>
 <ul>
-    <NavItem item='Home'/>
-    <NavItem item='About'/>
-    <NavItem item='Projects'/>
-    <NavItem item='Contact'/>
+    <NavItem item='Home' route='/'/>
+    <NavItem item='About' route='/about' />
+    <NavItem item='Projects' route='/projects' />
+    <NavItem item='Contact' route='/contact'/>
 </ul>
 </nav>
 

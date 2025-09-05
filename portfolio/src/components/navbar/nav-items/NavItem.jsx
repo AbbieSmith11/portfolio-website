@@ -1,9 +1,10 @@
 import '../Navbar.jsx'
+import { Link } from 'react-router-dom'
 
 function NavItem (props) {
     return (
         <li>
-            {props.item}
+            <Link to={props.route}>{props.item}</Link>
         </li>
     )
 }
