@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import './Navbar.css';
 import NavItem from './nav-items/NavItem';
 
@@ -8,10 +7,10 @@ function Navbar (){
 
 <nav>
 <ul>
-    <NavItem label='Home' c='nav-link active'to='/'/>
-    <NavItem label='About' c='nav-link' to='/about' />
-    <NavItem label='Projects' c='nav-link' to='/projects' />
-    <NavItem label='Contact' c='nav-link' to='/contact'/>
+    <NavItem label='Home' to='/'/>
+    <NavItem label='About' to='/about' />
+    <NavItem label='Projects' to='/projects' />
+    <NavItem label='Contact' to='/contact'/>
 </ul>
 </nav>
 
