@@ -23,14 +23,15 @@ ul {
   padding: 0;
 }
 
-li {
+a {
     font-size: 1.1rem;
-    color: rgb(75 85 99);
+    color: #d9d9d9;
     padding: 0.5rem 1rem;
     border-radius: 10px;
+    text-decoration: none;
 }
 
-li:hover {
+a:hover {
     cursor: pointer;
     color: #2b2b2b;
     background-color: #d9d9d956;
