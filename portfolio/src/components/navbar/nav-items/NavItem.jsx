@@ -1,11 +1,15 @@
-import '../Navbar.jsx'
+import "../Navbar.jsx";
+import { NavLink } from "react-router-dom";
 
-function NavItem (props) {
-    return (
-        <li>
-            <a href={props.route}>{props.item}</a>
-        </li>
-    )
+function NavItem({ to, label }) {
+  return (
+    <NavLink
+      to={to}
+      className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
+    >
+      {label}
+    </NavLink>
+  );
 }
 
-export default NavItem
+export default NavItem;
