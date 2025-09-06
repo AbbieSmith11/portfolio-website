@@ -1,9 +1,12 @@
+import './Profile.css'
 
 function Profile () {
     return (
         <section>
-            <h1>Hi there, I'm Abbie</h1>
+            <h1>Hello, I'm Abbie</h1>
+            <p> I am a Software Engineer thats passionate about solving complex problems and building purposeful, impactful applications.</p>
         </section>
+
     )
 }
 
