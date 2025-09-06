@@ -1,42 +1,27 @@
-
-
 #about {
-    width: 90vw;
-    margin: 5vw 5vw 5vw 5vw;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    gap: 1rem;
-}
-
-
-@media (max-width: 682px){
-    #about {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
 }
 
 #img {
-    overflow: hidden;
-    display: inline-block;
-    border-radius: 50%;
-     
-      
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 50%;
+  width: 15rem;
+  height: auto;
+  margin-bottom: 2vh;
 }
 
 img {
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: transform 0.4s ease;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease;
 }
 
 img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-

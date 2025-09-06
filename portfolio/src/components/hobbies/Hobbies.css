@@ -1,0 +1,20 @@
+#hobbies-section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 1rem;
+    flex-direction: column;
+}
+
+#hobbies ul {
+    display: flex;
+    flex-direction: column;
+}
