@@ -8,6 +8,7 @@
 
 #about p {
   transition: transform 0.4s ease;
+  text-align: center;
 }
 
 #about p:hover {

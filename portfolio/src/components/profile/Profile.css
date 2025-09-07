@@ -32,3 +32,11 @@
   transform: scale(1.1);
   cursor: default;
 }
+
+h1 {
+  cursor: default;
+}
+
+p {
+  cursor: default;
+}
