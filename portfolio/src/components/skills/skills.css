@@ -1,0 +1,33 @@
+
+
+i {
+    font-size: 3rem;
+}
+
+#skills-section {
+    gap: 1rem;
+    transition: transform 0.4s ease;
+}
+
+#skills-section:hover {
+    transform: scale(1.1);
+}
+
+#skills-section h1 {
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+i {
+    transition: transform 0.4s ease;
+}
+
+i:hover {
+    transform: scale(1.2);
+}
