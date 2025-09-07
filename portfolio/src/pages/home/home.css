@@ -5,3 +5,7 @@ body {
 section {
     margin-top: 5vh;
 }
+
+p {
+    font-size: 0.8rem;
+}
