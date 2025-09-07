@@ -2,6 +2,25 @@ body {
     margin: 0 20vw ;
 }
 
+ #fade {
+    opacity: 0;
+    transform: translatey(20px);
+    animation: fadeUp 1.5s ease-out forwards;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
 section {
     margin-bottom: 10vh;
 }

@@ -40,3 +40,7 @@ h1 {
 p {
   cursor: default;
 }
+
+#profile {
+  margin-bottom: 5vh;
+}
