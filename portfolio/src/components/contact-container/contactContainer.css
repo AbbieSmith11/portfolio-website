@@ -5,9 +5,15 @@
     gap: 0.8rem;
     align-items: center;
     padding: 1rem;
-    width: 40%;
-    border: 1px solid black;
+    border: 0.5px solid black;
+    transition: transform 0.4s ease;
 }
+
+#contact-container:hover {
+    transform: scale(1.05);
+
+}
+
 
 #contact-container i {
     font-size: 1.5rem;
@@ -17,6 +23,10 @@
     text-decoration: none;
     color: black;
     font-size: 0.8rem;
+}
+
+#contact-container a:hover {
+    text-decoration: underline;
 }
 
 #nameLink {

@@ -1,4 +1,5 @@
 import Navbar from "../../components/navbar/Navbar.jsx";
+import Footer from "../../components/footer/footer.jsx"
 import ContactContainer from "../../components/contact-container/contactContainer.jsx";
 import "./contact.css";
 
@@ -6,7 +7,10 @@ function Contact() {
   return (
     <>
       <Navbar />
-      <h1>Contact Me</h1>
+
+      <div id='fade'>
+
+        <h1>Contact Me</h1>
 
       <div id="contact-box">
         <ContactContainer
@@ -20,6 +24,8 @@ function Contact() {
           link="https://github.com/AbbieSmith11"
         />
       </div>
+      </div>
+      <Footer/>
     </>
   );
 }
