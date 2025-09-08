@@ -1,0 +1,29 @@
+#project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#project p {
+    margin: 0;
+}
+
+#name-and-link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#name-and-link h4 {
+    margin: 0;
+}
+
+#github-link {
+    text-decoration: none;
+}
+
+#github-link i {
+    font-size: 2rem;
+}
