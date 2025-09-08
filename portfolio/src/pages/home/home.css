@@ -2,11 +2,18 @@ body {
     margin: 0 20vw ;
 }
 
+#page {
+  display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
  #fade {
     opacity: 0;
     transform: translatey(20px);
     animation: fadeUp 1.5s ease-out forwards;
     animation-delay: 0.5s;
+    flex: 1;
   }
   
   @keyframes fadeUp {

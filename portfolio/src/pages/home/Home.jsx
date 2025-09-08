@@ -9,13 +9,16 @@ import './home.css'
 function Home() {
   return (
     <>
+    <div id='page'>
       <Navbar />
       <div id="fade">
         <Profile />
         <AboutMe />
         <Skills />
         <Hobbies />
-        <Footer />
+        
+      </div>
+      <Footer />
       </div>
     </>
   );
