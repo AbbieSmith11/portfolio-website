@@ -24,10 +24,10 @@ i {
     justify-content: center;
 }
 
-i {
+#skills i {
     transition: transform 0.4s ease;
 }
 
-i:hover {
+#skills i:hover {
     transform: scale(1.2);
 }
