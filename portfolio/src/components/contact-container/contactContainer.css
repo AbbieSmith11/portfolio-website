@@ -1,0 +1,31 @@
+#contact-container {
+    display: flex;
+    border-radius: 30px;
+    flex-direction: row;
+    gap: 0.8rem;
+    align-items: center;
+    padding: 1rem;
+    width: 40%;
+    border: 1px solid black;
+}
+
+#contact-container i {
+    font-size: 1.5rem;
+}
+
+#contact-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+#nameLink {
+display: flex;
+flex-direction: column;
+align-content: space-around;
+
+}
+
+#nameLink h3, p {
+    margin: 0;
+}

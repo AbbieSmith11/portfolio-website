@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/home//Home.jsx";
 import Projects from "./pages/projects/Projects.jsx";
-import Contact from "./pages/Contact.jsx";
+import Contact from "./pages/contact/Contact.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
