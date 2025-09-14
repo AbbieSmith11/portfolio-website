@@ -1,4 +1,4 @@
-import './contactContainer.css';
+import './ContactContainer.css';
 
 export default function ContactContainer (contact) {
     return (

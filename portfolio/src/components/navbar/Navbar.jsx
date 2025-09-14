@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import NavItem from "./nav-items/NavItem";
+import NavItem from "./NavItems/NavItem";
 
 function Navbar() {
   return (

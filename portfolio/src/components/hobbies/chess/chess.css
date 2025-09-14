@@ -1,6 +1,0 @@
-.spline-wrap {
-  inline-size: min(560px, 80vw);
-  aspect-ratio: 496 / 248;
-  position: relative;
-  overflow: hidden;
-}

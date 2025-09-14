@@ -1,4 +1,4 @@
-import './project.css';
+import './Project.css';
 
 export default function Project(project) {
 
