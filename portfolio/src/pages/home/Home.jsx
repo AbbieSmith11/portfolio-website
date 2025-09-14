@@ -4,7 +4,7 @@ import AboutMe from "../../components/aboutMe/AboutMe.jsx";
 import Hobbies from "../../components/hobbies/Hobbies.jsx";
 import Skills from "../../components/skills/skills.jsx";
 import Footer from "../../components/footer/footer.jsx";
-import "./Home.css";
+import "./home.css";
 
 function Home() {
   return (
