@@ -1,4 +1,4 @@
-import './Tool.css'
+import './tool.css'
 
 export default function Tool (tool) {
     return (
