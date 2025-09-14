@@ -1,5 +1,5 @@
 import "./Hobbies.css";
-import Hobby from "./Hobby/Hobby.jsx";
+import Hobby from "./hobby/Hobby.jsx";
 
 function Hobbies() {
   return (

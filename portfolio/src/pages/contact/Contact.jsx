@@ -1,4 +1,4 @@
-import Navbar from "../../components/Navbar/Navbar.jsx";
+import Navbar from "../../components/navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import ContactContainer from "../../components/ContactContainer/ContactContainer.jsx";
 import "./Contact.css";
