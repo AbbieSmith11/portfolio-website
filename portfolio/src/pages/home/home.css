@@ -1,4 +1,6 @@
-
+body {
+  color: #2B2B2B;
+}
 
 #page {
   display: flex;
