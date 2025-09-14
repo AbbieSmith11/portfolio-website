@@ -1,4 +1,3 @@
-import "../Navbar.jsx";
 import { NavLink } from "react-router-dom";
 
 function NavItem({ to, label }) {
