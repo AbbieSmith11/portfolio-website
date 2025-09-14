@@ -1,7 +1,7 @@
-import Navbar from "../../components/Navbar/Navbar.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
+import Navbar from "../../components/navbar/Navbar.jsx";
+import Footer from "../../components/footer/footer.jsx";
 import ContactContainer from "../../components/ContactContainer/ContactContainer.jsx";
-import "./Contact.css";
+import "./contact.css";
 
 function Contact() {
   return (
