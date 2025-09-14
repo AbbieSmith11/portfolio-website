@@ -16,8 +16,9 @@ nav {
   top: 0;
   background: white;
   margin: 0;
-  padding: 0.5rem 0;
+  padding: 0.5rem 1rem;
   height: 8vh;
+  z-index: 1;
 }
 
 ul {
@@ -35,6 +36,7 @@ ul a {
   padding: 0.5rem 1rem;
   border-radius: 10px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 ul a:hover {

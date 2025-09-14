@@ -4,3 +4,11 @@
     gap: 1rem;
     flex-wrap: wrap;
 }
+
+#full {
+    transition: transform 0.4s ease;
+}
+
+#full:hover {
+    transform: scale(1.05);
+}

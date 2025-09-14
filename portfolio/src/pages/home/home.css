@@ -1,5 +1,11 @@
 body {
-    margin: 0 20vw ;
+  color: #2B2B2B;
+}
+
+#page {
+  display: flex;
+   flex-direction: column;
+   min-height: 100vh;
 }
 
  #fade {
@@ -7,6 +13,8 @@ body {
     transform: translatey(20px);
     animation: fadeUp 1.5s ease-out forwards;
     animation-delay: 0.5s;
+    flex: 1;
+    margin: 0 20vw
   }
   
   @keyframes fadeUp {
