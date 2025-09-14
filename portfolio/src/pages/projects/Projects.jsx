@@ -1,8 +1,8 @@
 import Navbar from "../../components/navbar/Navbar.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
-import "./Projects.css";
-import Project from "../../components/project/Project.jsx";
-import Tool from "../../components/tools/Tool.jsx";
+import Footer from "../../components/footer/footer.jsx";
+import "./projects.css";
+import Project from "../../components/project/project.jsx";
+import Tool from "../../components/tools/tool.jsx";
 
 function Projects() {
   return (
