@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <section id='about'>
         <div id='img'>
-            <img src="../../../public/images/headshot.jpg" alt="" />
+            <img src="/images/headshot.jpg" alt="" />
         </div>
       
       <p id='aboutText'>
