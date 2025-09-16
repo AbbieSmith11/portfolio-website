@@ -25,6 +25,20 @@ function Projects() {
               <Tool name="Javascript" colour="#F7C6D9" />
             </div>
           </div>
+
+          <div id="full">
+            <Project
+              name="Calculator App"
+              description="A simple calculator built with React, TypeScript, Vite, and Tailwind CSS. It supports basic arithmetic operations with a responsive and clean design."
+              link="https://github.com/AbbieSmith11/calculator"
+            />
+            <div id="tools">
+              <Tool name="React" colour="#B8B4D9" />
+              <Tool name="TypeScript" colour="#F7C6D9" />
+              <Tool name="Vite" colour="#FF5A5F" />
+              <Tool name="Tailwind CSS" colour="#B8B4D9" />
+            </div>
+          </div>
         </div>
         <Footer />
       </div>
